@@ -55,7 +55,7 @@ jobs:
 
 
   Start_final_copy:
-    needs: [base-images, base32-images, language-images, language32-images]
+    needs: [base-images]
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
