@@ -87,7 +87,7 @@ Examples :
 // !!! Remember that your changes GOES AT THE BOTTOM OF THIS FILE right before the last #endif !!!
 */
 
-
+#define USE_MAKE_SKY_BLUE                        // Add support for MakeSkyBlue - Solar Charge Controller interface
 
 
 
